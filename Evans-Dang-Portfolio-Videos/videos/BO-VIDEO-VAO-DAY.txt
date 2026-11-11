@@ -1,0 +1,7 @@
+Chép video MP4 vào thư mục này.
+
+Video dọc: doc01.mp4 đến doc12.mp4
+Video ngang: ngang01.mp4 đến ngang09.mp4
+Video giới thiệu ở đầu trang: intro.mp4
+
+Giữ đúng tên chữ thường và hai chữ số. Mở index.html bằng Live Server rồi tải lại trang.

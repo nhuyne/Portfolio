@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#101214" />
+    <title>Evans Dang — Video Editor</title>
+    <meta
+      name="description"
+      content="Dựng video cho creator & thương hiệu. Evans Dang đồng hành lâu dài, từ footage đến thành phẩm. Có nhận dựng video tiếng Anh."
+    />
+    <meta property="og:title" content="Evans Dang — Video Editor" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Dựng video cho creator & thương hiệu. Đồng hành lâu dài, từ footage đến thành phẩm."
+    />
+    <meta
+      property="og:image"
+      content="https://evans-dang-portfolio.hoanghoat.chatgpt.site/assets/demo-filmstrip.png"
+    />
+    <meta property="og:locale" content="vi_VN" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./content.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div id="dau-trang" aria-hidden="true"></div>
+    <a class="skip" href="#tac-pham">Đến phần tác phẩm</a>
+    <header class="header">
+      <div class="container header-inner">
+        <a
+          class="wordmark"
+          href="#dau-trang"
+          aria-label="Evans Dang — về đầu trang"
+          >EVANS DANG<span></span
+        ></a>
+        <nav aria-label="Điều hướng chính">
+          <a class="nav-link" href="#tac-pham">Tác phẩm</a
+          ><a class="nav-link" href="#dich-vu">Dịch vụ</a
+          ><a class="nav-link" href="#thiet-ke">Thiết kế</a
+          ><a class="nav-link" href="#gioi-thieu">Giới thiệu</a
+          ><a class="button primary small" href="#lien-he"
+            >Liên hệ <i data-icon="diagonal"></i
+          ></a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="dot"></span>VIDEO EDITOR · ĐỒNG HÀNH DÀI LÂU
+          </p>
+          <h1 id="hero-title">
+            Dựng video cho<br /><em>creator &amp; thương hiệu.</em>
+          </h1>
+          <p class="subtitle">Đồng hành lâu dài, từ footage đến thành phẩm.</p>
+          <p class="english">
+            <i data-icon="globe"></i>Có nhận dựng video tiếng Anh
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#lien-he"
+              >Trao đổi hợp tác <i data-icon="arrow"></i></a
+            ><a class="button outline" href="#tac-pham"
+              ><i data-icon="play"></i>Xem tác phẩm</a
+            >
+          </div>
+        </div>
+        <div class="hero-media" id="hero-media"></div>
+        <a class="scroll-cue" href="#tac-pham"
+          >KHÁM PHÁ TÁC PHẨM <span></span> ↓</a
+        >
+      </section>
+      <section
+        class="about container divider"
+        id="gioi-thieu"
+        aria-labelledby="about-title"
+        data-reveal
+      >
+        <div class="monogram" aria-hidden="true">ED</div>
+        <div>
+          <span class="section-index">01 / ABOUT ME</span>
+          <h2 id="about-title">Về tôi<span class="accent">.</span></h2>
+          <p id="about-text">
+            Mình là Evans Dang, Video Editor với 3 năm kinh nghiệm dựng video đa
+            thể loại.
+          </p>
+          <div class="software">
+            Premiere Pro <span>·</span> CapCut <span>·</span> After Effects
+          </div>
+        </div>
+        <span class="about-detail" aria-hidden="true"
+          >CREATIVE<br />COLLABORATION</span
+        >
+      </section>
+      <section
+        class="works container divider"
+        id="tac-pham"
+        aria-labelledby="works-title"
+      >
+        <div class="section-heading" data-reveal>
+          <div>
+            <span class="section-index">02 / SELECTED WORK</span>
+            <h2 id="works-title">
+              Tác phẩm chọn lọc<span class="accent">.</span>
+            </h2>
+          </div>
+          <p class="work-note">
+            <span class="hover-hint">Rê chuột xem thử · </span>Bấm video để nghe
+          </p>
+        </div>
+        <div
+          class="carousel portrait"
+          id="portrait-carousel"
+          role="region"
+          aria-roledescription="băng chuyền"
+          aria-label="Tác phẩm video dọc"
+          data-reveal
+        >
+          <div class="carousel-heading">
+            <h3 class="gallery-label">VIDEO DỌC <span>9:16</span></h3>
+            <div class="carousel-tools">
+              <span>Kéo để xem thêm</span><i data-icon="infinity"></i
+              ><button
+                class="round carousel-prev"
+                aria-label="Video dọc trước"
+                type="button"
+              >
+                <i data-icon="left"></i></button
+              ><button
+                class="round carousel-next"
+                aria-label="Video dọc tiếp theo"
+                type="button"
+              >
+                <i data-icon="right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-viewport" aria-label="Danh sách video dọc">
+            <div class="carousel-track"></div>
+          </div>
+          <p class="sr-only carousel-announcement" aria-live="polite"></p>
+        </div>
+        <div
+          class="carousel landscape"
+          id="landscape-carousel"
+          role="region"
+          aria-roledescription="băng chuyền"
+          aria-label="Tác phẩm video ngang"
+          data-reveal
+        >
+          <div class="carousel-heading">
+            <h3 class="gallery-label">VIDEO NGANG <span>16:9</span></h3>
+            <div class="carousel-tools">
+              <span>Kéo để xem thêm</span><i data-icon="infinity"></i
+              ><button
+                class="round carousel-prev"
+                aria-label="Video ngang trước"
+                type="button"
+              >
+                <i data-icon="left"></i></button
+              ><button
+                class="round carousel-next"
+                aria-label="Video ngang tiếp theo"
+                type="button"
+              >
+                <i data-icon="right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="carousel-viewport" aria-label="Danh sách video ngang">
+            <div class="carousel-track"></div>
+          </div>
+          <p class="sr-only carousel-announcement" aria-live="polite"></p>
+        </div>
+      </section>
+      <section
+        class="services container divider"
+        id="dich-vu"
+        aria-labelledby="services-title"
+      >
+        <div class="section-heading" data-reveal>
+          <div>
+            <span class="section-index">03 / LET’S WORK TOGETHER</span>
+            <h2 id="services-title">
+              Đồng hành cùng kênh của bạn<span class="accent">.</span>
+            </h2>
+          </div>
+        </div>
+        <div class="service-layout" data-reveal>
+          <article class="primary-service surface">
+            <span class="section-index">HỢP TÁC ĐỊNH KỲ</span>
+            <h3><i data-icon="film"></i>Dựng video định kỳ</h3>
+            <div class="capabilities">
+              <div>
+                <i data-icon="folder"></i
+                ><span>Dựng từ<br />footage có sẵn</span>
+              </div>
+              <div>
+                <i data-icon="bulb"></i
+                ><span>Góp ý ý tưởng<br />&amp; kịch bản</span>
+              </div>
+              <div>
+                <i data-icon="camera"></i><span>Hướng dẫn<br />tự quay</span>
+              </div>
+            </div>
+            <a class="text-link" href="#lien-he"
+              >Trao đổi về kênh của bạn <i data-icon="diagonal"></i
+            ></a>
+          </article>
+          <div class="supporting">
+            <article class="process surface">
+              <h3 class="gallery-label">Cách hợp tác</h3>
+              <ol>
+                <li>
+                  <span><i data-icon="chat"></i></span>Trao đổi
+                </li>
+                <li>
+                  <span><i data-icon="document"></i></span>Chốt phong cách
+                </li>
+                <li>
+                  <span><i data-icon="play"></i></span>Dựng &amp; góp ý
+                </li>
+                <li>
+                  <span><i data-icon="check"></i></span>Bàn giao
+                </li>
+              </ol>
+            </article>
+            <article class="teaching surface">
+              <i data-icon="graduate"></i>
+              <div>
+                <h3>Hướng dẫn Premiere &amp; CapCut</h3>
+                <p>Dành cho người mới và người muốn dựng tốt hơn.</p>
+                <a class="text-link" href="#lien-he"
+                  >Trao đổi nhu cầu học <i data-icon="arrow"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="design-section container divider"
+        id="thiet-ke"
+        aria-labelledby="design-title"
+      >
+        <div class="design-heading" data-reveal>
+          <div>
+            <span class="section-index">04 / DESIGN</span>
+            <h2 id="design-title">Thiết kế<span class="accent">.</span></h2>
+          </div>
+          <span class="quiet-badge" id="design-status">Đang cập nhật</span>
+        </div>
+        <div class="design-empty surface" id="design-empty" data-reveal>
+          <i data-icon="pen"></i>
+          <p>Các ấn phẩm thiết kế sẽ được bổ sung tại đây.</p>
+          <span>Một góc sáng tạo khác, sắp ra mắt.</span>
+        </div>
+        <div class="design-grid" id="design-grid" hidden></div>
+      </section>
+
+      <section
+        class="contact container divider"
+        id="lien-he"
+        aria-labelledby="contact-title"
+        data-reveal
+      >
+        <span class="section-index">LET’S MAKE SOMETHING GOOD</span>
+        <h2 id="contact-title">
+          Cùng làm video<br /><em>cho kênh của bạn.</em>
+        </h2>
+        <p>Chia sẻ ý tưởng hoặc gửi một video tham khảo, mình cùng trao đổi.</p>
+        <div class="actions">
+          <a
+            class="button primary"
+            id="zalo-link"
+            href="https://zalo.me/0971961636"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i data-icon="chat"></i>Nhắn qua Zalo
+            <i data-icon="diagonal"></i></a
+          ><a
+            class="button outline"
+            id="email-link"
+            href="mailto:dangnhuy260119@gmail.com"
+            ><i data-icon="mail"></i>Gửi email</a
+          >
+        </div>
+        <button
+          class="email-copy"
+          id="copy-email"
+          aria-label="Sao chép địa chỉ email"
+          type="button"
+        >
+          <span id="email-display">dangnhuy260119@gmail.com</span
+          ><i data-icon="copy"></i>
+        </button>
+        <p class="sr-only" id="copy-announcement" aria-live="polite"></p>
+      </section>
+    </main>
+    <footer class="container footer">
+      <a class="wordmark" href="#dau-trang">EVANS DANG<span></span></a>
+      <div>
+        <a
+          id="facebook-link"
+          href="https://www.facebook.com/Gwenz.3000/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Facebook <i data-icon="diagonal"></i></a
+        ><span>© <span id="year">2026</span> Evans Dang</span
+        ><a class="back-top" href="#dau-trang" aria-label="Về đầu trang">↑</a>
+      </div>
+    </footer>
+    <dialog id="media-dialog" aria-labelledby="modal-title">
+      <div class="modal-panel">
+        <div class="modal-heading">
+          <div>
+            <span class="demo-badge" id="modal-demo">DEMO</span>
+            <h2 id="modal-title">Video</h2>
+          </div>
+          <button
+            class="round modal-close"
+            aria-label="Đóng video"
+            type="button"
+          >
+            <i data-icon="close"></i>
+          </button>
+        </div>
+        <div class="modal-stage" id="modal-stage"></div>
+        <div class="modal-footer">
+          <p id="modal-note"></p>
+          <div class="modal-navigation">
+            <button
+              class="round"
+              id="modal-prev"
+              aria-label="Xem tác phẩm trước"
+              type="button"
+            >
+              <i data-icon="left"></i></button
+            ><button
+              class="round"
+              id="modal-next"
+              aria-label="Xem tác phẩm tiếp theo"
+              type="button"
+            >
+              <i data-icon="right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>
